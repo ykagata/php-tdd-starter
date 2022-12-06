@@ -1,0 +1,24 @@
+{
+    "name": "php-tdd/money",
+    "description": "『テスト駆動開発』 PHP 写経スターターキット",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "psy/psysh": "^0.11.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "diablomedia/phpunit-pretty-printer": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpTdd\\Money\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpTdd\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
